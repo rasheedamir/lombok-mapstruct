@@ -8,7 +8,7 @@ import lombok.Value;
 @EqualsAndHashCode(callSuper = true)
 public class Invoice extends BaseEntity
 {
-    String name;
+    private final String name;  // private final doesn't need to be added though; just adding for readability purposes
 
     /**
      * just for dehydration purposes!
