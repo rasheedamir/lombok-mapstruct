@@ -16,6 +16,7 @@ hs_err_pid*
 out/
 build/
 .idea/
+.gradle/*
 target/
 .DS_Store/
 *.iws

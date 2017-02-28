@@ -8,6 +8,9 @@ public class InvoiceTest
     @Test
     public void verifyEquality()
     {
-        EqualsVerifier.forClass(Invoice.class).verify();
+        EqualsVerifier
+                .forClass(Invoice.class)
+                .withRedefinedSuperclass()
+                .verify();
     }
 }
